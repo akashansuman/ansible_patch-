@@ -1,0 +1,8 @@
+---
+- name: upgrade the system 
+  hosts: dev
+  tasks:
+    name: upgrade the system 
+    yum:
+     name: '*'
+     state: latest 

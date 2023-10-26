@@ -1,0 +1,9 @@
+---
+- name: upgrade thr machine 
+  hosts: prod 
+  tasks:
+    name: upgrade the machine 
+    yum:
+      name: '*'
+      state: latest 
+
